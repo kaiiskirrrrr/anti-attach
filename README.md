@@ -2,7 +2,7 @@ I have gone through x64dbgs source code and looked at their attachment process, 
 
 ## how to implement
 1. include attachment.hxx
-2. call the "start" function at the start of your program, example below:
+2. call the "start" function at the very start of your program, example below:
 ```cpp
 auto main(int argc, char* argv[]) -> int
 {
